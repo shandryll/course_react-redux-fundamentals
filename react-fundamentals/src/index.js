@@ -1,10 +1,11 @@
-import './index.css'
-import ReactDOM from 'react-dom'
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 import App from './App.jsx'
 
+import './index.css'
+
 ReactDOM.render(
-    <App></App>
-    , document.getElementById('root')
+    <App></App>,
+    document.getElementById('root')
 )
